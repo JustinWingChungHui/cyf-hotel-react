@@ -76,3 +76,8 @@ tr {
   color: white;
   padding: 1em;
 }
+
+.selected {
+  background-color: darkgrey !important;
+  color: white;
+}
