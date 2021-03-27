@@ -5,6 +5,7 @@ const TouristInfoCards = () => {
     <div className="TouristInfoCards">
       <div className="card">
         <img
+          alt="Glasgow"
           src="https://peoplemakeglasgow.com/images/CTA_Images/114605-GCMB-Generic_Homepage_Banner_RR_V1.png"
           className="card-img-top"
         />
@@ -17,6 +18,7 @@ const TouristInfoCards = () => {
 
       <div className="card">
         <img
+          alt="Manchester"
           src="https://www.visitmanchester.com/imageresizer/?image=%2Fdbimgs%2Fthe-lowry-exterior%281%29.jpg&action=FeaturedItems1x1"
           className="card-img-top"
         />
@@ -32,6 +34,7 @@ const TouristInfoCards = () => {
 
       <div className="card">
         <img
+          alt="London"
           src="https://cdn.londonandpartners.com/visit/whats-on/special-events/west-end-live/92134-310x174.jpg"
           className="card-img-top"
         />

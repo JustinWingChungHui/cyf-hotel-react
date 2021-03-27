@@ -8,6 +8,11 @@ const SearchResult = props => {
     setSelected(!selected);
   };
 
+  const onButtonClick = event => {
+    event.stopPropagation();
+    props.setCustomerId(props.searchResult.id);
+  };
+
   return (
     <tr onClick={onClick} className={selected ? "selected" : ""}>
       <td>{props.searchResult.id}</td>
@@ -23,6 +28,11 @@ const SearchResult = props => {
           moment(props.searchResult.checkInDate),
           "days"
         )}
+      </td>
+      <td>
+        <button className="btn btn-primary btn-sm" onClick={onButtonClick}>
+          Show Profile
+        </button>
       </td>
     </tr>
   );

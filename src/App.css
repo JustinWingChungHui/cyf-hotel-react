@@ -81,3 +81,26 @@ tr {
   background-color: darkgrey !important;
   color: white;
 }
+
+.customerResultsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.customerResultsContainer table {
+  font-size: small;
+  margin-right: 1em;
+}
+
+.customerDetails {
+  background-color: bisque;
+  border-radius: 1em;
+}
+
+.customerDetails th {
+  padding-left: 1em;
+}
+
+.customerDetails td {
+  padding-right: 1em;
+}
