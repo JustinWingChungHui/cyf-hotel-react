@@ -1,3 +1,5 @@
+Commit 1
+Commit 2
 A hotel booking application in React. Homework for the [CodeYourFuture React module](https://codeyourfuture.github.io/syllabus-master/react/)
 
 ![Bookings Search page](Bookings.png)
